@@ -49,7 +49,7 @@ app.listen(8080);
 ```
 
 ### Step 4: Serve `Hello World`
-Now that the server is running, we can send our message `Hello World`, to the user
+Now that the server is running, we can send our message - `Hello World` - to the user
 ```javascript
 app.get('/', function(req, res) {
     res.send('Hello World');
